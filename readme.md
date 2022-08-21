@@ -118,6 +118,7 @@ If you are wrapping header layout inside a view, please make sure the height of 
 | slidingPanelLayoutHeight |number | Panel height of sliding panel | android, ios
 | panelPosition | string | "top" or "bottom" | android, ios
 | visible | booolean | to show/hide sliding panel | android, ios
+| maxHeight | number | Panel maximum height, defualt is window height  | android, ios
 | allowDragging | booolean | allow sliding panel to drag | android, ios
 | allowAnimation | booolean | allow sliding panel to animate | android, ios
 | onDragStart | function(event, gestureState) | returns event, gestureState | android, ios
